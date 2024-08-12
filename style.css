@@ -6,19 +6,19 @@ body{
 
 
 .homeNav{
-    border: solid red;
+    /* border: solid red; */
     height: 15vh;
     display: flex;
 
 }
 
-.logo{
-    height: 100%;
+#logo{
+    height:10vh;
 
 }
 
 .leftNav{
-    border: solid;
+    /* border: solid; */
     width: 33%;
     display: flex;
     justify-content: center;
@@ -27,13 +27,13 @@ body{
 .rightNav{
     /* height: 30px; */
     width: 70%;
-    border: solid orange;
+    /* border: solid orange; */
     display: flex;
     justify-content: space-evenly;
 }
 
 #menu{
-    border: solid gray;
+    /* border: solid gray; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,13 +56,13 @@ a{
     width: 100%;
 }
 .Promotion{
-    border: solid red;
+    /* border: solid red; */
     background-color: #073762b3;
     color: white;
     width: 150px;
     height: 250px;
     position:absolute;
-    top: 60vh;
+    top: 55vh;
     right:70vh;
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@ a{
 }
 
 .mediumHome{
-    border: solid red;
+    /* border: solid red; */
     margin-top: 80px;
     padding: 20px;
 }
@@ -128,7 +128,7 @@ a{
 }
 
 .apartments{
-    border: solid red;
+    /* border: solid red; */
     /* height: 100px; */
     display: flex;
     justify-content: space-evenly;
@@ -137,7 +137,7 @@ a{
 }
 
 #leftA{
-    border: solid red;
+    /* border: solid red; */
     /* height: 10px; */
     width: 33%;
     display: flex;
@@ -149,7 +149,7 @@ a{
 }
 #mediumA{
     width: 33%;
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,7 +161,7 @@ a{
 }
 #rightA{
     width: 33%;
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,4 +242,84 @@ form {
     /* justify-content: space-evenly; */
 
 
+}
+
+.form2 {
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form2 h2 {
+    text-align: center;
+    color: #1e3a5f;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form2 label {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form2 input[type="text"],
+.form2 input[type="email"],
+.form2 input[type="tel"],
+.form2 textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form2 input[type="text"]:focus,
+.form2 input[type="email"]:focus,
+.form2 input[type="tel"]:focus,
+.form2 textarea:focus {
+    border-color: #1e3a5f;
+    outline: none;
+    box-shadow: 0 0 5px rgba(30, 58, 95, 0.3);
+}
+
+.form2 textarea {
+    resize: vertical;
+}
+
+.form2 input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e3a5f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form2 input[type="submit"]:hover {
+    background-color: #2e4a78;
+}
+
+.form2 p {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin: 30px;
+}
+
+#form2{
+    display: flex;
+    justify-content: center;
 }
