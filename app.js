@@ -63,3 +63,15 @@ text3.style.color = "#073762";
 text3.style.fontFamily = "Gill Sans"
 
 document.getElementById("rightA").append(text3);
+
+const images = document.querySelectorAll('#gallery');
+
+images.forEach(image => {
+    image.addEventListener('mouseover', () => {
+        image.style.transform = 'scale(1.2)';
+    });
+
+    image.addEventListener('mouseout', () => {
+        image.style.transform = 'scale(1)';
+    });
+});
