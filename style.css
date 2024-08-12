@@ -13,7 +13,7 @@ body{
 }
 
 .logo{
-    height: 50px;
+    height: 100px;
 
 }
 
@@ -132,7 +132,6 @@ body{
     border: solid red;
     /* height: 10px; */
     width: 33%;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,7 +142,6 @@ body{
 .mediumA{
     width: 33%;
     border: solid red;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,7 +154,6 @@ body{
 .rightA{
     width: 33%;
     border: solid red;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,4 +164,13 @@ body{
 }
 .insideApt{
     width: 100%;
+}
+
+.lastNav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.logo{
+    height: 20px;
 }
