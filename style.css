@@ -13,7 +13,7 @@ body{
 }
 
 .logo{
-    height: 100px;
+    height: 100%;
 
 }
 
@@ -53,9 +53,9 @@ body{
     color: white;
     width: 150px;
     height: 250px;
-    position: absolute;
-    top: 300px;
-    right:350px;
+    position:absolute;
+    top: 60vh;
+    right:70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,7 +128,7 @@ body{
     padding: 10px;
 }
 
-.leftA{
+#leftA{
     border: solid red;
     /* height: 10px; */
     width: 33%;
@@ -139,7 +139,7 @@ body{
     background-color: rgba(255, 255, 255, 0.904);
     margin: 10px;
 }
-.mediumA{
+#mediumA{
     width: 33%;
     border: solid red;
     display: flex;
@@ -151,7 +151,7 @@ body{
 
 
 }
-.rightA{
+#rightA{
     width: 33%;
     border: solid red;
     display: flex;
